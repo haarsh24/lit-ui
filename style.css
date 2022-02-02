@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  font-family: "Readex Pro", sans-serif;
+  transition: all ease 0.5s;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #8a2be2;
+  --secondary: #0b1120;
+  --font-color: #637084;
+  --white: #fff;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary);
+  color: var(--font-color);
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  align-items: center;
+  background-color: var(--secondary);
+  color: var(--primary);
+  /* position: sticky; */
+  top: 0;
+  width: 100%;
+  font-size: larger;
+}
+
+.nav {
+  margin-left: auto;
+  color: inherit;
+}
+
+.container {
+  /* position: absolute; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  gap: 2rem;
+}
+.title {
+  font-size: xx-large;
+}
+.nav {
+  /* display: flex;
+justify-content: center; */
+  font-size: larger;
+  gap: 1rem;
+}
+
+.footer {
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  color: var(--primary);
+  background-color: var(--secondary);
+  padding: 1rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.tag {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 5rem; */
+}
+img {
+  width: 6rem;
+  height: 10rem;
+}
+.title-tag {
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.highlight {
+  color: var(--primary);
+}
+.focus {
+  font-family: "Pacifico", cursive;
+}
+
+.code {
+  margin: 2rem;
+  border-radius: 1rem;
+  overflow-y: hidden;
+  scroll-behavior: auto;
+}
+.usage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.installation {
+  text-align: center;
+}
+
+.nav {
+  text-decoration: none;
+  color: var(--primary);
+}
+.nav:hover {
+  color: var(--font-color);
+}
+
+.name-tag {
+  text-decoration: none;
+  color: var(--font-color);
+}
+.name-tag:hover {
+  font-size: xx-large;
+}
+.btn.primary {
+  background-color: var(--primary);
+  color: var(--font-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: larger;
+  cursor: pointer;
+}
+.btn.primary:hover {
+  background-color: var(--secondary);
+  color: var(--font-color);
+  border: solid 0.5rem var(--primary);
+}
+a {
+  text-decoration: none !important;
+}
+/* Handle */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 2rem;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--font-color);
+}
