@@ -26,6 +26,7 @@ a {
   flex-direction: column;
   background-color: var(--secondary-color);
   color: var(--font-color);
+  width:100%;
 }
 .header {
   display: flex;
@@ -289,16 +290,4 @@ img {
   border-radius: 50%;
 }
 
-::-webkit-scrollbar {
-  width: 0.5rem;
-  height: 2rem;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
-  border-radius: 1rem;
-}
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--font-color);
-}
