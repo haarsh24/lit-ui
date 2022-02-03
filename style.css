@@ -101,10 +101,11 @@ img {
 }
 
 .code {
-  margin: 2rem;
+  margin-top: 1rem;
   border-radius: 1rem;
-  overflow-y: hidden;
-  scroll-behavior: auto;
+  width:45rem;
+  height: 12rem;
+  overflow: auto;
 }
 .usage {
   display: flex;
