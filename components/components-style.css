@@ -112,8 +112,7 @@ a {
 .components {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  
+
 }
 a {
   text-decoration: none !important;
@@ -127,6 +126,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .card {
