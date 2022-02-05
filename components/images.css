@@ -1,0 +1,43 @@
+.img-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.images-container {
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  margin: 3rem;
+  align-items: center;
+}
+
+.image-circular {
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+}
+
+.image-square {
+  border-radius: 0 !important;
+}
+
+.image-responsive {
+  width: 100%;
+  object-fit: cover;
+  padding: 5rem;
+}
+
+.image-heading {
+  margin-top: 2rem;
+}
+
+.image-summary {
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+.image-code {
+  display: flex;
+  justify-content: center;
+}

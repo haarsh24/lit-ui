@@ -1,401 +1,393 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LIT UI | Components</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="./components-style.css" />
-  </head>
-  <body>
-    <div class="body">
-      <header class="header">
-        <div class="title">
-          <h2>
-            <a href="../index.html"> LIT UI</a>
-          </h2>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LIT UI | Components</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./components-style.css" />
+</head>
+
+<body>
+  <div class="body">
+    <header class="header">
+      <div class="title">
+        <h2>
+          <a href="../index.html"> LIT UI</a>
+        </h2>
+      </div>
+      <div class="nav">
+        <a href="https://github.com/haarsh24/lit-ui">
+          <span>GitHub</span> <i class="fa fa-github fa-2x"></i>
+        </a>
+      </div>
+    </header>
+    <div class="components">
+      <aside class="drawer">
+        <div class="lists">
+          <div class="list-item">
+            <label><a href="#alerts" class="item-text"> Alerts</a></label>
+          </div>
+          <div class="list-item">
+            <label><a href="#avatars" class="item-text"> Avatars</a></label>
+          </div>
+          <div class="list-item">
+            <label><a href="#badges" class="item-text"> Badges</a></label>
+          </div>
+          <div class="list-item">
+            <label><a href="#buttons" class="item-text"> Buttons</a></label>
+          </div>
+          <div class="list-item">
+            <label class="item-text"><a href="#cards" class="item-text"> Cards</a>
+            </label>
+          </div>
+          <div class="list-item">
+            <label><a href="#images" class="item-text"> Images</a></label>
+          </div>
+          <div class="list-item">
+            <label><a href="#inputs" class="item-text"> Inputs</a></label>
+          </div>
         </div>
-        <div class="nav">
-          <a href="https://github.com/haarsh24/lit-ui">
-            <span>GitHub</span> <i class="fa fa-github fa-2x"></i>
-          </a>
-        </div>
-      </header>
-      <div class="components">
-        <aside class="drawer">
-          <div class="lists">
-            <div class="list-item">
-              <label 
-                ><a href="#alerts" class="item-text"> Alerts</a></label
-              >
+      </aside>
+      <div class="components-items">
+        <div id="alerts" class="alerts">
+          <div class="heading alert-heading">Alerts</div>
+          <div class="summary alert-summary">
+            <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible
+              alert messages.</p>
+          </div>
+          <div class="alerts-div">
+            <div class="alert alert-primary" role="alert">
+              This is a primary alert—check it out!
             </div>
-            <div class="list-item">
-              <label 
-                ><a href="#avatars" class="item-text"> Avatars</a></label
-              >
+            <div class="alert alert-secondary" role="alert">
+              This is a secondary alert—check it out!
             </div>
-            <div class="list-item">
-              <label 
-                ><a href="#badges" class="item-text"> Badges</a></label
-              >
+            <div class="alert alert-success" role="alert">
+              This is a success alert—check it out!
             </div>
-            <div class="list-item">
-              <label 
-                ><a href="#buttons" class="item-text"> Buttons</a></label
-              >
+            <div class="alert alert-danger" role="alert">
+              This is a danger alert—check it out!
             </div>
-            <div class="list-item">
-              <label  class="item-text"
-                ><a href="#cards" class="item-text"> Cards</a>
-              </label>
-            </div>
-            <div class="list-item">
-              <label 
-                ><a href="#images" class="item-text"> Images</a></label
-              >
-            </div>
-            <div class="list-item">
-              <label 
-                ><a href="#input" class="item-text"> Inputs</a></label
-              >
+            <div class="alert alert-warning" role="alert">
+              This is a warning alert—check it out! <div class="alert-dismiss">X</div>
             </div>
           </div>
-        </aside>
-        <div class="components-items">
-          <div id="alerts" class="alerts">
-            <div class="heading alert-heading">Alerts</div>
-            <div class="summary alert-summary">
-              <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
-            </div>
-            <div class="alerts-div">
-              <div class="alert alert-primary" role="alert">
-                This is a primary alert—check it out!
-              </div>
-              <div class="alert alert-secondary" role="alert">
-                This is a secondary alert—check it out!
-              </div>
-              <div class="alert alert-success" role="alert">
-                This is a success alert—check it out!
-              </div>
-              <div class="alert alert-danger" role="alert">
-                This is a danger alert—check  it out!
-              </div>
-              <div class="alert alert-warning" role="alert">
-                This is a warning alert—check it out! <div class="alert-dismiss">X</div>
-              </div>
-            </div>
-            <div class="alert-code code">
-              <iframe class="code"
-  src="https://carbon.now.sh/embed?bg=rgba%28134%2C42%2C220%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520secondary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520success%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520danger%2520alert%25E2%2580%2594check%2520%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520warning%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%2520%253Cdiv%2520class%253D%2522alert-dismiss%2522%253EX%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-  style="width: 538px; height: 541px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-            </div>
+          <div class="alert-code code">
+            <iframe class="code"
+              src="https://carbon.now.sh/embed?bg=rgba%28134%2C42%2C220%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520secondary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520success%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520danger%2520alert%25E2%2580%2594check%2520%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520warning%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%2520%253Cdiv%2520class%253D%2522alert-dismiss%2522%253EX%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+              style="width: 538px; height: 541px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
           </div>
-          <div id="buttons" class="buttons">
-            <div class="heading btn-heading">Primary & Secondary Button</div>
-            <div class="btns">
-              <div class="btn-basic">
-                <button class="btn btn-primary">Primary</button>
-                <button class="btn btn-secondary">Secondary</button>
-              </div>
-              <div class="btn-code code">
-                <iframe
-                  src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=621&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=ReadexPro-Regular&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A"
-                  style="
+        </div>
+        <div id="buttons" class="buttons">
+          <div class="heading btn-heading">Primary & Secondary Button</div>
+          <div class="btns">
+            <div class="btn-basic">
+              <button class="btn btn-primary">Primary</button>
+              <button class="btn btn-secondary">Secondary</button>
+            </div>
+            <div class="btn-code code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=621&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=ReadexPro-Regular&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A"
+                style="
                     width: 507px;
                     height: 231px;
                     border: 0;
                     transform: scale(1);
                     overflow: hidden;
-                  "
-                  sandbox="allow-scripts allow-same-origin"
-                >
-                </iframe>
-              </div>
+                  " sandbox="allow-scripts allow-same-origin">
+              </iframe>
             </div>
-            <div class="heading btn-heading">Link Button</div>
-            <div class="btns">
-              <button class="btn btn-link"><a class="btn-text" href="#">Link 1</a></button>
-              <button class="btn btn-link"><a class="btn-text" href="#">Link 2</a></button>
-              <div class="btn-code code">
-                <iframe
-                  src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=621&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=ReadexPro-Regular&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253E%253Ca%2520href%253D%2522%2523%2522%253ELink%25201%253C%252Fa%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253E%253Ca%2520href%253D%2522%2523%2522%253ELink%25202%253C%252Fa%253E%253C%252Fbutton%253E%250A"
-                  style="
+          </div>
+          <div class="heading btn-heading">Link Button</div>
+          <div class="btns">
+            <button class="btn btn-link"><a class="btn-text" href="#">Link 1</a></button>
+            <button class="btn btn-link"><a class="btn-text" href="#">Link 2</a></button>
+            <div class="btn-code code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=621&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=ReadexPro-Regular&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253E%253Ca%2520href%253D%2522%2523%2522%253ELink%25201%253C%252Fa%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253E%253Ca%2520href%253D%2522%2523%2522%253ELink%25202%253C%252Fa%253E%253C%252Fbutton%253E%250A"
+                style="
                     width: 539px;
                     height: 231px;
                     border: 0;
                     transform: scale(1);
                     overflow: hidden;
-                  "
-                  sandbox="allow-scripts allow-same-origin"
-                >
-                </iframe>
-              </div>
+                  " sandbox="allow-scripts allow-same-origin">
+              </iframe>
             </div>
-            <div class="heading btn-heading">Icons Button</div>
-            <div class="btns">
-              <button class="btn btn-icon">
-                <i class="fa fa-share"></i>Share
-              </button>
-              <button class="btn btn-icon">
-                <i class="fa fa-star-o"></i>Star
-              </button>
-              <div class="btn-code code">
-                <iframe
-                  src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=621&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=Hack&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-share%2520%2522%2520%253E%253C%252Fi%253EShare%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-star-o%2520%2522%253E%253C%252Fi%253EStar%250A%253C%252Fbutton%253E%250A%2520%250A"
-                  style="
+          </div>
+          <div class="heading btn-heading">Icons Button</div>
+          <div class="btns">
+            <button class="btn btn-icon">
+              <i class="fa fa-share"></i>Share
+            </button>
+            <button class="btn btn-icon">
+              <i class="fa fa-star-o"></i>Star
+            </button>
+            <div class="btn-code code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=621&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=Hack&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-share%2520%2522%2520%253E%253C%252Fi%253EShare%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-star-o%2520%2522%253E%253C%252Fi%253EStar%250A%253C%252Fbutton%253E%250A%2520%250A"
+                style="
                     width: 405px;
                     height: 308px;
                     border: 0;
                     transform: scale(1);
                     overflow: hidden;
-                  "
-                  sandbox="allow-scripts allow-same-origin"
-                >
-                </iframe>
-              </div>
+                  " sandbox="allow-scripts allow-same-origin">
+              </iframe>
             </div>
-            <div class="heading btn-heading">Floating Button</div>
-            <div class="btns">
-              <button class="btn btn-float"><i class="fa fa-cogs"></i></button>
-              <button class="btn btn-float"><i class="fa fa-inbox"></i></button>
-              <button class="btn btn-float">
-                <i class="fa fa-medkit"></i>
-              </button>
+          </div>
+          <div class="heading btn-heading">Floating Button</div>
+          <div class="btns">
+            <button class="btn btn-float"><i class="fa fa-cogs"></i></button>
+            <button class="btn btn-float"><i class="fa fa-inbox"></i></button>
+            <button class="btn btn-float">
+              <i class="fa fa-medkit"></i>
+            </button>
 
-              <div class="btn-code code">
-                <iframe
-                  src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=621&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=Hack&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-float%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-cogs%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-float%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-inbox%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-float%2522%253E%2520%250A%253Ci%2520class%253D%2522fa%2520fa-medkit%2522%2520%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%250A"
-                  style="
+            <div class="btn-code code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=621&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=Hack&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-float%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-cogs%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-float%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-inbox%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-float%2522%253E%2520%250A%253Ci%2520class%253D%2522fa%2520fa-medkit%2522%2520%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%250A"
+                style="
                     width: 436px;
                     height: 327px;
                     border: 0;
                     transform: scale(1);
                     overflow: hidden;
-                  "
-                  sandbox="allow-scripts allow-same-origin"
-                >
-                </iframe>
-              </div>
+                  " sandbox="allow-scripts allow-same-origin">
+              </iframe>
             </div>
           </div>
-          <div id="cards" class="cards">
-            <h2 class="heading card-heading">
-              Basic Card with Shadow on Hover
-            </h2>
-            <div class="card-div">
-              <div class="card card-basic">
-                <img
-                  class="image"
-                  src="https://picsum.photos/400/400"
-                  width="300px"
-                />
-                <h3>This is our Title</h3>
-                <p>Author name goes here</p>
-                <p>Placeholder for description</p>
-                <div class="navbar">
-                  <button class="card-btn">Like</button>
-                  <button class="card-btn">Share</button>
-                  <button class="card-btn">Subscribe</button>
-                </div>
+        </div>
+        <div id="cards" class="cards">
+          <h2 class="heading card-heading">
+            Basic Card with Shadow on Hover
+          </h2>
+          <div class="card-div">
+            <div class="card card-basic">
+              <img src="https://picsum.photos/400/400" width="300px" />
+              <h3>This is our Title</h3>
+              <p>Author name goes here</p>
+              <p>Placeholder for description</p>
+              <div class="navbar">
+                <button class="card-btn">Like</button>
+                <button class="card-btn">Share</button>
+                <button class="card-btn">Subscribe</button>
               </div>
+            </div>
 
-              <div class="card-code">
-                <iframe
-                  class="code"
-                  src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=621&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=ReadexPro-Regular&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520basic%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%252F400%2522%2520width%253D%2522300px%2522%2520%252F%253E%250A%2520%2520%253Ch3%2520class%253D%2522author%2522%253EAuthor%2520name%2520goes%2520here%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522description%2522%253EPlaceholder%2520for%2520description%253C%252Fp%253E%250A%2520%2520%253Cdiv%2520class%253D%2522navbar%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253ELike%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EShare%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253ESubscribe%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-                  style="
+            <div class="card-code">
+              <iframe class="code"
+                src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=621&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=ReadexPro-Regular&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520basic%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%252F400%2522%2520width%253D%2522300px%2522%2520%252F%253E%250A%2520%2520%253Ch3%2520class%253D%2522author%2522%253EAuthor%2520name%2520goes%2520here%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522description%2522%253EPlaceholder%2520for%2520description%253C%252Fp%253E%250A%2520%2520%253Cdiv%2520class%253D%2522navbar%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253ELike%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EShare%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253ESubscribe%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                style="
                     width: 590px;
                     height: 386px;
                     border: 0;
                     transform: scale(1);
                     overflow: hidden;
                     font-size: 5px;
-                  "
-                  sandbox="allow-scripts allow-same-origin"
-                >
-                </iframe>
-              </div>
+                  " sandbox="allow-scripts allow-same-origin">
+              </iframe>
             </div>
-            <h2 class="heading card-heading">Horizontal Card</h2>
-            <div class="card-div">
-              <div class="card horizontal">
-                <img class="image3" src="https://picsum.photos/200/200" />
-                <div class="card-items-horizontal">
-                  <h3>Our Earth</h3>
-                  <p>Harsh</p>
-                  <p>This is nice planet</p>
-                  <div class="card-btns">
-                    <button class="card-btn">Add To Cart</button>
-                    <button class="card-btn">Buy</button>
-                  </div>
+          </div>
+          <h2 class="heading card-heading">Horizontal Card</h2>
+          <div class="card-div">
+            <div class="card horizontal">
+              <img class="image3" src="https://picsum.photos/200/200" />
+              <div class="card-items-horizontal">
+                <h3>Our Earth</h3>
+                <p>Harsh</p>
+                <p>This is nice planet</p>
+                <div class="card-btns">
+                  <button class="card-btn">Add To Cart</button>
+                  <button class="card-btn">Buy</button>
                 </div>
               </div>
-              <div class="card-code">
-                <iframe
-                  class="code"
-                  src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=621&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=ReadexPro-Regular&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520horizontal%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522image3%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%252F200%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-items-horizontal%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EOur%2520Earth%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%253EHarsh%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%253EThis%2520is%2520nice%2520planet%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-                  style="
+            </div>
+            <div class="card-code">
+              <iframe class="code"
+                src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=621&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=ReadexPro-Regular&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520horizontal%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522image3%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%252F200%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-items-horizontal%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EOur%2520Earth%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%253EHarsh%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%253EThis%2520is%2520nice%2520planet%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                style="
                     width: 546px;
                     height: 419px;
                     border: 0;
                     transform: scale(1);
                     overflow: hidden;
-                  "
-                  sandbox="allow-scripts allow-same-origin"
-                >
-                </iframe>
+                  " sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+          </div>
+          <h2 class="heading card-heading">Text Only Card</h2>
+          <div class="card-div">
+            <div class="card text-only">
+              <div class="card-items-text">
+                <h2>Inquisitive</h2>
+                <p>Word of the Day</p>
+                <p class="text-only-font">
+                  having or showing an interest in learning things; curious.
+                </p>
+                <p class="text-only-font">
+                  Ex- "his poems reveal an intensely inquisitive mind".
+                </p>
               </div>
             </div>
-            <h2 class="heading card-heading">Text Only Card</h2>
-            <div class="card-div">
-              <div class="card text-only">
-                <div class="card-items-text">
-                  <h2>Inquisitive</h2>
-                  <p>Word of the Day</p>
-                  <p class="text-only-font">
-                    having or showing an interest in learning things; curious.
-                  </p>
-                  <p class="text-only-font">
-                    Ex- "his poems reveal an intensely inquisitive mind".
-                  </p>
-                </div>
-              </div>
-              <div class="card-code">
-                <iframe
-                  class="code"
-                  src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=433&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=Hack&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text-only%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-items-text%2522%253E%250A%2520%2520%2520%2520%253Ch2%253EInquisitive%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%253EWord%2520of%2520the%2520Day%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-only-font%2522%253E%250Ahaving%2520or%2520showing%2520an%2520interest%2520in%2520learning%2520things%253B%2520curious.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-only-font%2522%253E%250AEx-%2520%2522his%2520poems%2520reveal%2520an%2520intensely%2520inquisitive%2520mind%2522.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-                  style="
+            <div class="card-code">
+              <iframe class="code"
+                src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=433&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=Hack&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text-only%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-items-text%2522%253E%250A%2520%2520%2520%2520%253Ch2%253EInquisitive%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%253EWord%2520of%2520the%2520Day%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-only-font%2522%253E%250Ahaving%2520or%2520showing%2520an%2520interest%2520in%2520learning%2520things%253B%2520curious.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-only-font%2522%253E%250AEx-%2520%2522his%2520poems%2520reveal%2520an%2520intensely%2520inquisitive%2520mind%2522.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                style="
                     width: 593px;
                     height: 402px;
                     border: 0;
                     transform: scale(1);
                     overflow: hidden;
-                  "
-                  sandbox="allow-scripts allow-same-origin"
-                >
-                </iframe>
-              </div>
+                  " sandbox="allow-scripts allow-same-origin">
+              </iframe>
             </div>
-            <h2 class="heading card-heading">Cards with Badges</h2>
-            <div class="card-div">
-              <div class="card horizontal badges">
-                <div class="card-items-horizontal">
-                  <p class="text-badge">New</p>
-                  <h3>Welcome to Earth</h3>
-                  <p>Harsh</p>
-                  <p>Check Your Notifications Below.</p>
-                  <div class="card-btns">
-                    <button class="card-btn card-btn-float ">
-                      <i class="fa fa-cogs btn-badge">
-                        <span class="badge"></span
-                      ></i>
-                    </button>
+          </div>
+          <h2 class="heading card-heading">Cards with Badges</h2>
+          <div class="card-div">
+            <div class="card horizontal badges">
+              <div class="card-items-horizontal">
+                <p class="text-badge">New</p>
+                <h3>Welcome to Earth</h3>
+                <p>Harsh</p>
+                <p>Check Your Notifications Below.</p>
+                <div class="card-btns">
+                  <button class="card-btn card-btn-float ">
+                    <i class="fa fa-cogs btn-badge">
+                      <span class="badge"></span></i>
+                  </button>
 
-                    <button class="card-btn card-btn-float ">
-                      <i class="fa fa-inbox btn-badge"
-                        ><span class="badge red"></span
-                      ></i>
-                    </button>
-                    <button class="card-btn card-btn-float ">
-                      <i class="fa fa-medkit btn-badge"
-                        ><span class="badge blue"></span
-                      ></i>
-                    </button>
-                  </div>
+                  <button class="card-btn card-btn-float ">
+                    <i class="fa fa-inbox btn-badge"><span class="badge red"></span></i>
+                  </button>
+                  <button class="card-btn card-btn-float ">
+                    <i class="fa fa-medkit btn-badge"><span class="badge blue"></span></i>
+                  </button>
                 </div>
-              </div>
-              <div class="card-code">
-                <iframe
-                  class="code"
-                  src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=433&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=Hack&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253B%253Cdiv%2520class%253D%2522card%2520horizontal%2520badges%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-items-horizontal%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EWelcome%2520to%2520Earth%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%253EHarsh%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%253ECheck%2520Your%2520Notifications%2520Below.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btns%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-float%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-cogs%2520btn-badge%2522%253E%253Cspan%2520class%253D%2522badge%2522%253E%253C%252Fspan%253E%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-float%2522%253E%250A%2520%253Ci%2520class%253D%2522fa%2520fa-inbox%2520btn-badge%2522%253E%253Cspan%2520class%253D%2522badge%2520red%2522%253E%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-float%2522%253E%250A%2520%253Ci%2520class%253D%2522fa%2520fa-medkit%2520btn-badge%2522%253E%2520%253Cspan%2520class%253D%2522badge%2520blue%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-                  style="width: 696px; height: 551px; border: 0"
-                  sandbox="allow-scripts allow-same-origin"
-                >
-                </iframe>
               </div>
             </div>
-            <h2 class="heading card-heading">Cards with Dismiss</h2>
-            <div class="card-div">
-              <div class="card dismiss">
-                <div class="card-items-text">
-                  <h2>Do you really want to Logout ?</h2>
-                  <p class="text-only-font">You will lose all your Data</p>
-                </div>
-                <div class="dismiss-btn">
-                  <button class="card-btn blue">Cancel</button>
-                  <button class="card-btn red">Logout</button>
-                </div>
+            <div class="card-code">
+              <iframe class="code"
+                src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=433&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=Hack&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253B%253Cdiv%2520class%253D%2522card%2520horizontal%2520badges%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-items-horizontal%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EWelcome%2520to%2520Earth%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%253EHarsh%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%253ECheck%2520Your%2520Notifications%2520Below.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btns%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-float%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-cogs%2520btn-badge%2522%253E%253Cspan%2520class%253D%2522badge%2522%253E%253C%252Fspan%253E%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-float%2522%253E%250A%2520%253Ci%2520class%253D%2522fa%2520fa-inbox%2520btn-badge%2522%253E%253Cspan%2520class%253D%2522badge%2520red%2522%253E%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-float%2522%253E%250A%2520%253Ci%2520class%253D%2522fa%2520fa-medkit%2520btn-badge%2522%253E%2520%253Cspan%2520class%253D%2522badge%2520blue%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                style="width: 696px; height: 551px; border: 0" sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+          </div>
+          <h2 class="heading card-heading">Cards with Dismiss</h2>
+          <div class="card-div">
+            <div class="card dismiss">
+              <div class="card-items-text">
+                <h2>Do you really want to Logout ?</h2>
+                <p class="text-only-font">You will lose all your Data</p>
               </div>
-              <div class="card-code code">
-                <iframe class="code"
-                  src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=433&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=Hack&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520dismiss%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-items-text%2522%253E%250A%2520%2520%2520%2520%253Ch2%253EDo%2520you%2520really%2520want%2520to%2520Logout%2520%253F%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-only-font%2522%253EYou%2520will%2520lose%2520all%2520your%2520Data%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522dismiss-btn%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520blue%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520red%2522%253ELogout%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-                  style="
+              <div class="dismiss-btn">
+                <button class="card-btn blue">Cancel</button>
+                <button class="card-btn red">Logout</button>
+              </div>
+            </div>
+            <div class="card-code code">
+              <iframe class="code"
+                src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=433&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=Hack&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520dismiss%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-items-text%2522%253E%250A%2520%2520%2520%2520%253Ch2%253EDo%2520you%2520really%2520want%2520to%2520Logout%2520%253F%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-only-font%2522%253EYou%2520will%2520lose%2520all%2520your%2520Data%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522dismiss-btn%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520blue%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520red%2522%253ELogout%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                style="
                     width: 616px;
                     height: 364px;
                     border: 0;
                     transform: scale(1);
                     overflow: hidden;
-                  "
-                  sandbox="allow-scripts allow-same-origin"
-                >
-                </iframe>
-              </div>
+                  " sandbox="allow-scripts allow-same-origin">
+              </iframe>
             </div>
-            <h2 class="heading card-heading">Cards with Overlay</h2>
-            <div class="card-div">
-              <div class="card overlay">
-                <div class="overlay text-field">
-                  <h3>Our Earth</h3>
-                  <p>Harsh</p>
-                  <p>This is nice planet</p>
-                  <div class="card-navbar">
-                    <button class="card-btn">Like</button>
-                    <button class="card-btn">Share</button>
-                    <button class="card-btn">
-                      <i class="fa fa-heart-o"></i>
-                    </button>
-                    <button class="card-btn">
-                      <i class="fa fa-share-alt" a></i>
-                    </button>
-                  </div>
+          </div>
+          <h2 class="heading card-heading">Cards with Overlay</h2>
+          <div class="card-div">
+            <div class="card overlay">
+              <div class="overlay text-field">
+                <h3>Our Earth</h3>
+                <p>Harsh</p>
+                <p>This is nice planet</p>
+                <div class="card-navbar">
+                  <button class="card-btn">Like</button>
+                  <button class="card-btn">Share</button>
+                  <button class="card-btn">
+                    <i class="fa fa-heart-o"></i>
+                  </button>
+                  <button class="card-btn">
+                    <i class="fa fa-share-alt" a></i>
+                  </button>
                 </div>
-                <img
-                  class="image2"
-                  src="https://picsum.photos/400/400"
-                  width="300px"
-                />
               </div>
-              <div class="card-code code">
-                <iframe
-                  src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=433&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=Hack&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520overlay%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522overlay%2520text-field%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EOur%2520Earth%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%253EHarsh%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%253EThis%2520is%2520nice%2520planet%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-navbar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253ELike%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EShare%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart-o%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2522%2520a%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cimg%2520class%253D%2522image2%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%252F400%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520width%253D%2522300px%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A"
-                  style="
+              <img class="image2" src="https://picsum.photos/400/400" width="300px" />
+            </div>
+            <div class="card-code code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28138%2C43%2C226%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=433&ds=true&dsyoff=0px&dsblur=33px&wc=true&wa=true&pv=50px&ph=59px&ln=false&fl=1&fm=Hack&fs=13px&lh=145%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520overlay%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522overlay%2520text-field%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EOur%2520Earth%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%253EHarsh%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%253EThis%2520is%2520nice%2520planet%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-navbar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253ELike%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EShare%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart-o%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2522%2520a%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cimg%2520class%253D%2522image2%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%252F400%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520width%253D%2522300px%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A"
+                style="
                     width: 593px;
                     height: 534px;
                     border: 0;
                     transform: scale(1);
                     overflow: hidden;
-                  "
-                  sandbox="allow-scripts allow-same-origin"
-                >
-                </iframe>
-              </div>
+                  " sandbox="allow-scripts allow-same-origin">
+              </iframe>
             </div>
           </div>
         </div>
+        <div d="images" class="images">
+          <div id="images" class="images-container">
+            <div class="heading image-heading">Images</div>
+            <div class="img-container">
+              <div class="  image-summary">Square Image</div>
+              <img class="image image-square" src="https://picsum.photos/400/400" />
+              <div class="image-summary">Round Image</div>
+              <img class="image image-circular" src="https://picsum.photos/400/400" />
+              <div class="image-summary">Responsive Image</div>
+              <img class=" image-responsive" src="https://picsum.photos/800/800" />
+            </div>
+            <div class="image-code ">
+              <iframe class="code"
+                src="https://carbon.now.sh/embed?bg=rgba%28134%2C42%2C220%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522image%2520image-square%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%252F400%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%253Cimg%2520class%253D%2522image%2520image-circular%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%252F400%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%253Cimg%2520class%253D%2522%2520image-responsive%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F800%252F800%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520"
+                style="width: 841px; height: 299px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <div id="inputs" class="inputs">
+          <div class="heading input-heading">Inputs</div>
+           <div class="input-container">
+             <form class="input-form">
+               <label for="name">Enter your name</label>
+               <input class="input-text" type="text" placeholder="Enter your name here">
+               <label for="name">Enter your Email Id</label>
+               <input class="input-text input-success" type="email" placeholder="Enter your email here">
+               <label for="name">Enter your Password </label>
+               <input class="input-text input-error" type="email" placeholder="Enter your Password here">
+             </form>
+             <div class="input-code">
+              <iframe class="code"
+              src="https://carbon.now.sh/embed?bg=rgba%28134%2C42%2C220%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522input-form%2522%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253EEnter%2520your%2520name%253C%252Flabel%253E%250A%2520%253Cinput%2520class%253D%2522input-text%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520name%2520here%2522%253E%250A%250A%2520%2520%253Clabel%2520for%253D%2522name%2522%253EEnter%2520your%2520Email%2520Id%253C%252Flabel%253E%250A%2520%253Cinput%2520class%253D%2522input-text%2520input-success%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522Enter%2520your%2520email%2520here%2522%253E%250A%250A%2520%2520%253Clabel%2520for%253D%2522name%2522%253EEnter%2520your%2520Password%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522input-text%2520input-error%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522Enter%2520your%2520Password%2520here%2522%253E%250A%2520%2520%253C%252Fform%253E%250A%2520"
+              style="width: 909px; height: 374px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+             </div>
+           </div>
+
         </div>
       </div>
-
-      <footer class="footer">
-        <h2>
-          Designed and Developed  by
-          <a class="name-tag" href="https://kumarharsh.netlify.app/"> harsh </a>
-        </h2>
-      </footer>
     </div>
-  </body>
+  </div>
+
+  <footer class="footer">
+    <h2>
+      Designed and Developed by
+      <a class="name-tag" href="https://kumarharsh.netlify.app/"> harsh </a>
+    </h2>
+  </footer>
+  </div>
+</body>
+
 </html>
