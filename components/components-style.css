@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
 }
-
+  
 
 :root {
   --primary-color: #8a2be2;
@@ -59,9 +59,8 @@
   width: 100%;
   color: var(--primary-color);
   background-color: var(--secondary-color);
-  padding: 1rem;
+  padding: 5rem;
   text-align: center;
-  padding-bottom: 2rem;
 }
 .name-tag {
   text-decoration: none;
@@ -142,6 +141,8 @@ a {
 }
 img {
   border-radius: 1rem;
+  height:auto;
+  width:17rem;
 }
 .btn {
   background-color: var(--primary-color);
@@ -170,10 +171,11 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  /* flex-wrap: wrap; */
   /* padding: 2rem; */
   /* border:0.5rem solid var(--font-color); */
   /* border-radius: 1rem; */
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .card-basic:hover {
@@ -290,3 +292,12 @@ img {
 a {
   text-decoration: none !important;
 }
+
+iframe{
+  max-inline-size: 100%;
+  block-size: auto;
+  overflow-x: scroll;
+}
+
+
+
