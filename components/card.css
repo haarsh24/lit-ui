@@ -1,0 +1,177 @@
+/** Cards **/
+.cards {
+    /* margin-left: 5rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin: 2rem;
+    max-width: max-content;
+    height: fit-content;
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    z-index: 3;
+    background-color: var(--white);
+    gap: 0.5rem;
+    border-radius: 1rem;
+    color: var(--font-color-black);
+  }
+  img {
+    border-radius: 1rem;
+    height:auto;
+    width:17rem;
+  }
+  .card-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  .card-btn:hover {
+    background-color: var(--card-btn);
+  }
+  
+  .code {
+    /* margin: 2rem; */
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .card-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* padding: 2rem; */
+    /* border:0.5rem solid var(--font-color); */
+    /* border-radius: 1rem; */
+    margin: 1rem;
+  }
+  
+  .card-basic:hover {
+    box-shadow: 0 14px 28px rgba(243, 238, 238, 0.25),
+      0 10px 10px rgba(241, 218, 218, 0.22);
+  }
+  
+  .horizontal {
+    width:auto;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: row;
+  }
+  .card-items-horizontal {
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  /** Text only Card **/
+  .card-items-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .text-only-font {
+    color: var(--card-btn);
+  }
+  
+  /** Badge Card **/
+  .badges {
+    padding-top: 2rem;
+    position: relative;
+  }
+  .btn-badge {
+    position: relative;
+  }
+  .badge {
+    position: absolute;
+    z-index: 111;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: var(--green);
+    top: 1.3rem;
+  }
+  
+  .text-badge {
+    position: absolute;
+    width: 4rem;
+    height: 1.5rem;
+    text-align: center;
+    background-color: var(--card-btn);
+    padding: -0.5rem;
+    border-radius: 0.5rem;
+    color: var(--white);
+    z-index: 111;
+    top: 0.5rem;
+    left: 0.2rem;
+  }
+  
+  .badge.red {
+    background-color: var(--red);
+  }
+  .badge.blue {
+    background-color: var(--card-btn);
+  }
+  
+  /** Cards with Dismiss **/
+  
+  .dismiss-btn {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+  .red {
+    background-color: var(--red);
+  }
+  .blue {
+    background-color: var(--card-btn);
+  }
+  /** Cards with Overlay **/
+  .overlay {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-2 {
+    z-index: -1;
+  }
+  .overlay.text-field {
+    color: var(--secondary-color);
+    gap: 2rem;
+    position: absolute;
+    z-index: 2;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  
+  .card-navbar {
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  .card-btn-float {
+    background-color: var(--secondary-color);
+    border: 0.2rem solid var(--primary-color);
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 50%;
+  }
+  a {
+    text-decoration: none !important;
+  }
