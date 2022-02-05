@@ -1,0 +1,44 @@
+.alerts-div {
+}
+
+.alert {
+  width: auto;
+  height: auto;
+  text-align: start;
+  padding: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  color: var(--black);
+  font-weight: 400;
+  margin: 1.5rem;
+}
+
+.alert-primary {
+  background-color: var(--alert-primary);
+}
+
+.alert-secondary {
+  background-color: var(--alert-secondary);
+}
+
+.alert-success {
+  background-color: var(--alert-success);
+}
+
+.alert-warning {
+  display: flex;
+  background-color: var(--alert-warning);
+}
+
+.alert-danger {
+  background-color: var(--alert-danger);
+}
+
+.alert-dismiss {
+  margin-left: auto;
+}
+
+.alert-code{
+  text-align: center;
+  margin:3rem;
+}
