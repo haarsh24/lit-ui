@@ -6,6 +6,10 @@
 @import url("./images.css");
 @import url("./inputs.css");
 
+
+
+
+@import url("./snackbar.css");
 * {
   font-family: "Readex Pro", sans-serif;
   transition: all ease 0.5s;
