@@ -7,37 +7,34 @@
   --card-btn: #1d58db;
   --danger-color: #ff0000;
   --success-color: #0fb10f;
-  --black-color:#0a0a0a;
-  --alert-primary:#a1c7f0;
-  --alert-secondary:#9fa1a5;
-  --alert-success:#97e4a9;
-  --alert-warning:#cbe07f;
-  --alert-danger:#f0814e;
+  --black-color: #0a0a0a;
+  --alert-primary: #a1c7f0;
+  --alert-secondary: #9fa1a5;
+  --alert-success: #97e4a9;
+  --alert-warning: #cbe07f;
+  --alert-danger: #f0814e;
 }
 
-
-
-
-.flex-row-center{
+.flex-row-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.flex-column-center{
+.flex-column-center {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.p2{
+.p2 {
   padding: 2rem;
 }
 
-.p1{
+.p1 {
   padding: 1rem;
-.flex{
+}
+.flex {
   display: flex;
-
 }
