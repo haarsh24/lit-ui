@@ -30,13 +30,13 @@
 }
 
 .input-success {
-  border: 3px solid var(--green);
+  border: 3px solid var(--success-color);
 }
 .input-error {
   border: 3px solid var(--red);
 }
 .input-success:focus {
-  border: 3px solid var(--green);
+  border: 3px solid var(--success-color);
 }
 
 .input-error:focus {

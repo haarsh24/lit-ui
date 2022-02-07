@@ -1,0 +1,37 @@
+.avatar-images {
+   
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.avatars-container{
+    display: flex;
+    flex-direction: column;
+   
+}
+.avatar {
+  width: 15rem;
+  height: auto;
+}
+
+.avatar-square {
+  border-radius: 0.5rem;
+}
+.avatar-round{
+  border-radius: 50%;
+}
+.avatar-m {
+  width: 8rem;
+  height: auto;
+}
+
+.avatar-s {
+  width: 4rem;
+  height: auto;
+}
+
+.avatar-xs {
+  width: 2rem;
+  height: auto;
+}
+
