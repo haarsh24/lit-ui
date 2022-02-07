@@ -5,7 +5,13 @@
 @import url("utlis.css");
 @import url("./images.css");
 @import url("./inputs.css");
+@import url("./avatars.css");
+@import url("./badges.css");
 
+
+
+
+@import url("./snackbar.css");
 * {
   font-family: "Readex Pro", sans-serif;
   transition: all ease 0.5s;
@@ -13,7 +19,6 @@
   margin: 0;
   padding: 0;
 }
-
 
 .body {
   display: flex;
@@ -116,8 +121,21 @@ iframe {
   overflow-x: scroll;
 }
 
-.summary{
-  padding:2rem;
+.summary {
+  padding: 2rem;
   text-align: center;
   font-size: 1.2rem;
+}
+
+.code {
+  margin: 2rem 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  align-self: center;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }

@@ -5,12 +5,16 @@
   --white: #fff;
   --font-color-black: #2e3033;
   --card-btn: #1d58db;
-  --red: #ff0000;
-  --green: #008000;
-  --black:#0a0a0a;
+  --danger-color: #ff0000;
+  --success-color: #0fb10f;
+  --black-color:#0a0a0a;
   --alert-primary:#a1c7f0;
   --alert-secondary:#9fa1a5;
   --alert-success:#97e4a9;
   --alert-warning:#cbe07f;
   --alert-danger:#f0814e;
+}
+
+.flex{
+  display: flex;
 }
