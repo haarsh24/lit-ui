@@ -3,13 +3,19 @@
     width:40rem;
     border-radius: 0.5rem;
     margin:0.1rem;
+    list-style: none;
 }
 
-.lists-item:hover{
+.lists-item-stacked:hover{
     background-color: var(--white);
     color:var(--black);
 }
 
 .lists-item{
     text-align: start;
+}
+.lists-spaced{
+    border:0.2rem solid var(--primary-color);
+    text-align: center;
+    border-radius: 0.5rem;
 }
