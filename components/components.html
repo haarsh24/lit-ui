@@ -518,7 +518,7 @@
           </div>
 
         </div>
-        lit-utilities-lists
+
         <div class="text-util" id="text-util">
           <div class="heading text-util-heading">Textography</div>
           <div class="summary text-utli-summary">
@@ -613,46 +613,47 @@
             style="width: 681px; height: 467px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
           </iframe>
-          <div id="snackbars" class="snackbar-list">
-            <div class="heading snackbar-heading">Snackbar / Toast</div>
-            <div class="summary snackbar-summary"> Snackbars are often used as tooltips/popups to show a message at the
-              bottom of the screen.
-              Click on the Buttons below to view the snackbar
-            </div>
+        </div>
+        <div id="snackbars" class="snackbar-list">
+          <div class="heading snackbar-heading">Snackbar / Toast</div>
+          <div class="summary snackbar-summary"> Snackbars are often used as tooltips/popups to show a message at the
+            bottom of the screen.
+            Click on the Buttons below to view the snackbar
+          </div>
 
-            <div class="flex snackbar-container">
-              <button class="btn btn-secondary base">BASELINE</button>
-              <button class="btn btn-secondary stack">STACKED</button>
-              <button class="btn btn-secondary lead">LEADING</button>
+          <div class="flex snackbar-container">
+            <button class="btn btn-secondary base">BASELINE</button>
+            <button class="btn btn-secondary stack">STACKED</button>
+            <button class="btn btn-secondary lead">LEADING</button>
+          </div>
+          <div class="snackbars">
+            <div class="snackbar baseline" id="baseline">
+              <p class="snackbar-text">Can't send photo. Retry in 5 seconds.</p>
+              <button class="btn btn-primary">retry</button>
+              <i class="fa fa-times" aria-hidden="true"></i>
             </div>
-            <div class="snackbars">
-              <div class="snackbar baseline" id="baseline">
-                <p class="snackbar-text">Can't send photo. Retry in 5 seconds.</p>
+            <div class="snackbar stacked" id="stacked">
+              <p class="snackbar-text">
+                This item already has the label "travel". You can add a new label..
+              </p>
+              <div>
                 <button class="btn btn-primary">retry</button>
                 <i class="fa fa-times" aria-hidden="true"></i>
               </div>
-              <div class="snackbar stacked" id="stacked">
-                <p class="snackbar-text">
-                  This item already has the label "travel". You can add a new label..
-                </p>
-                <div>
-                  <button class="btn btn-primary">retry</button>
-                  <i class="fa fa-times" aria-hidden="true"></i>
-                </div>
-              </div>
-              <div class="snackbar leading" id="leading">
-                <p class="snackbar-text">Your photo has been archived.</p>
-
-                <button class="btn btn-primary"> Undo</button>
-                <i class="fa fa-times" aria-hidden="true"></i>
-              </div>
             </div>
+            <div class="snackbar leading" id="leading">
+              <p class="snackbar-text">Your photo has been archived.</p>
 
+              <button class="btn btn-primary"> Undo</button>
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
           </div>
-        </div>
 
+        </div>
       </div>
+
     </div>
+  </div>
   </div>
 
   <footer class="footer">

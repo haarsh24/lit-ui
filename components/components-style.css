@@ -131,6 +131,8 @@ iframe {
   border-radius: 1rem;
   overflow: hidden;
   align-self: center;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
