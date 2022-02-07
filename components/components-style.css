@@ -139,3 +139,7 @@ iframe {
   align-items: center;
   justify-content: space-around;
 }
+
+.header-title {
+  color: var(--primary-color) !important;
+}
