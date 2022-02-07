@@ -1,0 +1,15 @@
+.lists-item-stacked{
+    border:0.2rem solid var(--primary-color);
+    width:40rem;
+    border-radius: 0.5rem;
+    margin:0.1rem;
+}
+
+.lists-item:hover{
+    background-color: var(--white);
+    color:var(--black);
+}
+
+.lists-item{
+    text-align: start;
+}

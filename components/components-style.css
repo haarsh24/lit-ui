@@ -6,6 +6,16 @@
 @import url("./images.css");
 @import url("./inputs.css");
 
+
+
+
+
+
+
+
+
+@import url("./text-utilities.css");
+@import url("./lists.css");
 * {
   font-family: "Readex Pro", sans-serif;
   transition: all ease 0.5s;

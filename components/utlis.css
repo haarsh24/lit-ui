@@ -14,3 +14,26 @@
   --alert-warning:#cbe07f;
   --alert-danger:#f0814e;
 }
+
+
+
+.flex-row-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.p2{
+  padding: 2rem;
+}
+
+.p1{
+  padding: 1rem;
+}
