@@ -26,14 +26,14 @@
 }
 
 .input-error {
-  color: var(--red);
+  color: var(--danger-color);
 }
 
 .input-success {
   border: 3px solid var(--success-color);
 }
 .input-error {
-  border: 3px solid var(--red);
+  border: 3px solid var(--danger-color);
 }
 .input-success:focus {
   border: 3px solid var(--success-color);
