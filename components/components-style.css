@@ -91,7 +91,7 @@
   /* scroll-behavior: auto; */
   color: var(--font-color);
 }
-.item:hover {
+.item-text:hover {
   font-size: 1.5rem;
   background-color: var(--primary-color);
   padding: 1rem;
