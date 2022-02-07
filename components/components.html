@@ -48,6 +48,10 @@
           <div class="list-item">
             <label><a href="#inputs" class="item-text"> Inputs</a></label>
           </div>
+          <div></div>
+          <div class="list-item">
+            <label><a href="#snackbars" class="item-text"> Snackbars</a></label>
+          </div>
         </div>
       </aside>
       <div class="components-items">
@@ -344,7 +348,7 @@
             </div>
           </div>
         </div>
-        <div d="images" class="images">
+        <div id="images" class="images">
           <div id="images" class="images-container">
             <div class="heading image-heading">Images</div>
             <div class="img-container">
@@ -394,6 +398,42 @@
           </div>
 
         </div>
+        <div id="snackbars" class="snackbar-list">
+          <div class="heading snackbar-heading">Snackbar / Toast</div>
+          <div class="summary snackbar-summary"> Snackbars are often used as tooltips/popups to show a message at the
+            bottom of the screen.
+            Click on the Buttons below to view the snackbar
+          </div>
+
+          <div class="flex snackbar-container">
+            <button class="btn btn-secondary base">BASELINE</button>
+            <button class="btn btn-secondary stack">STACKED</button>
+            <button class="btn btn-secondary lead">LEADING</button>
+          </div>
+          <div class="snackbars">
+            <div class="snackbar baseline" id="baseline">
+              <p class="snackbar-text">Can't send photo. Retry in 5 seconds.</p>
+              <button class="btn btn-primary">retry</button>
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div class="snackbar stacked" id="stacked">
+              <p class="snackbar-text">
+                This item already has the label "travel". You can add a new label..
+              </p>
+              <div>
+                <button class="btn btn-primary">retry</button>
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="snackbar leading" id="leading">
+              <p class="snackbar-text">Your photo has been archived.</p>
+
+              <button class="btn btn-primary"> Undo</button>
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
@@ -406,5 +446,6 @@
   </footer>
   </div>
 </body>
+<script src="snackbar.js"></script>
 
 </html>

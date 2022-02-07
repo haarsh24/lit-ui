@@ -14,3 +14,7 @@
   --alert-warning:#cbe07f;
   --alert-danger:#f0814e;
 }
+
+.flex{
+  display: flex;
+}
