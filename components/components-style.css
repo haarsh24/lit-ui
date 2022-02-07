@@ -3,6 +3,8 @@
 @import url("./alerts.css");
 @import url("./buttons.css");
 @import url("utlis.css");
+@import url("./images.css");
+@import url("./inputs.css");
 
 * {
   font-family: "Readex Pro", sans-serif;

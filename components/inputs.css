@@ -1,0 +1,44 @@
+.inputs{
+    margin-top:5rem;
+}
+.input-container {
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.input-form {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  border: 0.5rem solid var(--primary-color);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin:2rem;
+}
+
+.input-text {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+.input-error {
+  color: var(--red);
+}
+
+.input-success {
+  border: 3px solid var(--green);
+}
+.input-error {
+  border: 3px solid var(--red);
+}
+.input-success:focus {
+  border: 3px solid var(--green);
+}
+
+.input-error:focus {
+  border: 3px solid var(--red);
+}
