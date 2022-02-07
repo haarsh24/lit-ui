@@ -1,0 +1,56 @@
+.snackbar-container {
+  flex-direction: row;
+  justify-content: center;
+}
+.snackbars {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var;
+  border-radius: 1rem;
+  height: 63vh;
+  border: 0.5rem solid var(--primary-color);
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.snackbar {
+  border: 0.2rem solid var(--primary-color);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.snackbar-text {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.snackbar-list {
+  padding: 0 0.5rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+.baseline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.stacked {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  display: none;
+}
+
+.leading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-start;
+  align-items: center;
+  display: none;
+}
