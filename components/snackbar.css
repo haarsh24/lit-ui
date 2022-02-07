@@ -17,14 +17,14 @@
   padding: 1rem;
 }
 
-.snackbar{
-    border:0.2rem solid var(--primary-color);
-    border-radius: 1rem;
-    padding: 1rem;
+.snackbar {
+  border: 0.2rem solid var(--primary-color);
+  border-radius: 1rem;
+  padding: 1rem;
 }
-.snackbar-text{
-    font-size: 1rem;
-    padding:0.5rem;
+.snackbar-text {
+  font-size: 1rem;
+  padding: 0.5rem;
 }
 .snackbar-list {
   padding: 0 0.5rem;
