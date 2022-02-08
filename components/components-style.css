@@ -7,11 +7,10 @@
 @import url("./inputs.css");
 @import url("./avatars.css");
 @import url("./badges.css");
-
-
-
-
+@import url("./text-utilities.css");
+@import url("./lists.css");
 @import url("./snackbar.css");
+
 * {
   font-family: "Readex Pro", sans-serif;
   transition: all ease 0.5s;
@@ -132,9 +131,11 @@ iframe {
   border-radius: 1rem;
   overflow: hidden;
   align-self: center;
+  display: flex;
+  justify-content: center;
 }
 
-.container{
+.container {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -143,3 +144,4 @@ iframe {
 .header-title {
   color: var(--primary-color) !important;
 }
+
