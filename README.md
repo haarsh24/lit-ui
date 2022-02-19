@@ -79,7 +79,7 @@ Visit [docs](https://litui.netlify.app/components/components.html) to explore mo
   - Text utilities
 
 </br>
-***Glad to see you here! Show some love by [starring](https://github.com/haarsh24/lit-ui) this repo.***
+⭐Glad to see you here! Show some love by ⭐Starring <a href="https://github.com/haarsh24/lit-ui/"> LIT UI </a>  🚀  this repo. ⭐
 </br>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
