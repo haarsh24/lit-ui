@@ -77,3 +77,13 @@ Visit [docs](https://litui.netlify.app/components/components.html) to explore mo
 
   - Headings
   - Text utilities
+
+</br>
+***Glad to see you here! Show some love by [starring](https://github.com/haarsh24/lit-ui) this repo.***
+</br>
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/codeandchords" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="codeandchords" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/kumarharshn" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kumarharshn" height="30" width="40" /></a>
+<a href="https://instagram.com/haarshn" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="haarshn" height="30" width="40" /></a>
+</p>
