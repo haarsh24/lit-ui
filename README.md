@@ -14,7 +14,7 @@ Visit [docs](https://litui.netlify.app/components/components.html) to explore mo
 ---
 
 
-## Components Provided by Cool UI
+## Components Provided by LIT UI
 
 - [Alert](https://litui.netlify.app/components/components.html#alerts)
 
