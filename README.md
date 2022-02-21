@@ -1,5 +1,7 @@
 <h1 align="center" style="font-weight: bold"> LIT UI </h1>
 <h2 align="center" > Make you website Awesome with LIT UI . CSS framework to Rapidly build Modern Website without ever leaving your HTML.  <a href="https://litui.netlify.app/"> Live Preview </a>  🚀 </h2>
+</br>
+<img src="https://github.com/haarsh24/lit-ui/blob/development/assets/litui-final.gif" />
 
 ## Installation Guide
 
@@ -12,6 +14,32 @@ You can use this library by adding css stylesheet to your website. To get starte
 Visit [docs](https://litui.netlify.app/components/components.html) to explore more.
 
 ---
+## Tech Stack
+
+![HTML](https://img.shields.io/badge/-HTML-orange)
+![CSS](https://img.shields.io/badge/-CSS-blue)
+![Javascript](https://img.shields.io/badge/-Javascript-blueviolet)
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+ git clone  https://github.com/haarsh24/lit-ui.git
+```
+
+Go to the project directory
+
+```bash
+  cd lit-ui
+```
+
+Open project
+
+```bash
+  open index.html
+```
 
 
 ## Components Provided by LIT UI
@@ -50,12 +78,16 @@ Visit [docs](https://litui.netlify.app/components/components.html) to explore mo
   - Card with text overlay
   - Text only card
 
-
-- [Image](https://litui.netlify.app/components/components.html#images)
+- [Grids](https://litui.netlify.app/components/components.html#grids)
 
   - Responsive Image
   - Round Image
   - Sqaure Image
+
+- [Image](https://litui.netlify.app/components/components.html#images)
+
+  - Two Grids
+  - Three Grids
 
 - [Input](https://litui.netlify.app/components/components.html#inputs)
 
@@ -77,7 +109,17 @@ Visit [docs](https://litui.netlify.app/components/components.html) to explore mo
 
   - Headings
   - Text utilities
+ 
+- [Sliders](https://litui.netlify.app/components/components.html#sliders)
 
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Primary Color | ![#8a2be2](https://via.placeholder.com/40/8a2be2?text=+) #8a2be2
+| Secondary Color | ![#0b1120](https://via.placeholder.com/40/0b1120?text=+) #0b1120
+| Font Color | ![#637084](https://via.placeholder.com/40/637084;?text=+) #637084
 </br>
 ⭐Glad to see you here! Show some love by ⭐Starring <a href="https://github.com/haarsh24/lit-ui/"> LIT UI </a>  🚀  repo. ⭐
 </br>
