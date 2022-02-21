@@ -1,0 +1,19 @@
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1rem;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1rem;
+}
+
+.grid-item {
+    /* text-align: center; */
+    padding: 2rem;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    font-size: 1.5rem;
+}
