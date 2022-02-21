@@ -40,7 +40,15 @@ Open project
 ```bash
   open index.html
 ```
+## Features
 
+- Dark Mode
+- Minimalistic
+- Live previews
+- Easy to Use
+- Cross platform
+- Import single component
+- More than 10 Different component
 
 ## Components Provided by LIT UI
 
