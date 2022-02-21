@@ -10,6 +10,8 @@
 @import url("./text-utilities.css");
 @import url("./lists.css");
 @import url("./snackbar.css");
+@import url("./grid.css");
+
 
 * {
   font-family: "Readex Pro", sans-serif;
