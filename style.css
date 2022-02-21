@@ -29,8 +29,7 @@
   top: 0;
   width: 100%;
   font-size: larger;
-  border-bottom: 2px solid var(--font-color);
-  border-radius: 1rem;
+
 }
 
 .nav {

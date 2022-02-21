@@ -40,8 +40,6 @@
   top: 0;
   width: 100%;
   font-size: 1rem;
-  border-bottom: 2px solid var(--font-color);
-  border-radius: 1rem;
 }
 .title {
   font-size: 2rem;
@@ -149,7 +147,3 @@ iframe {
   color: var(--primary-color) !important;
 }
 
-.drawer{
-  border-right: 2px solid var(--font-color);
-  border-radius: 1rem;
-}
