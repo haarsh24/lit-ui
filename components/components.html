@@ -7,9 +7,16 @@
   <title>LIT UI | Components</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
   <link rel="stylesheet" href="./components-style.css" />
+
 </head>
 
 <body>
+  <script>
+      function darkMode(){
+      document.body.classList.toggle('dark-mode');
+      } 
+    window.onpaint = darkMode();
+    </script>
   <div class="body">
     <header class="header">
       <div class="title">
@@ -18,6 +25,7 @@
         </h2>
       </div>
       <div class="nav header-title">
+        <i id="dark-mode-toggle" class="fa fa-moon-o fa-2x dark-mode-toggle" aria-hidden="true"></i>
         <a href="https://github.com/haarsh24/lit-ui">
           <span class="header-title">GitHub</span> <i class=" header-title fa fa-github fa-2x"></i>
         </a>
@@ -92,7 +100,7 @@
             </div>
           </div>
           <div class="alert-code code">
-            <iframe class="code"
+            <iframe class="code" 
               src="https://carbon.now.sh/embed?bg=rgba%28134%2C42%2C220%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520secondary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520success%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520danger%2520alert%25E2%2580%2594check%2520%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520warning%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%2520%253Cdiv%2520class%253D%2522alert-dismiss%2522%253EX%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
               style="width: 538px; height: 541px; border:0; transform: scale(1); overflow:hidden;"
               sandbox="allow-scripts allow-same-origin">
@@ -492,7 +500,7 @@
             <div class="heading grids-heading">Three Grids</div>
             <div class="summary ">Three items in a grid takes up entire width and display it's child into three equal
               parts.Use grid-3 class as parent class and grid-item class to its child .
-              
+
             </div>
             <div class="grid-3 p2">
               <div class="grid-item">Grid Item 1</div>
@@ -734,5 +742,6 @@
 </body>
 <script src="../js/snackbar.js"></script>
 <script src="../js/slider.js"></script>
+<script src="../js/dark-mode.js"></script>
 
 </html>
