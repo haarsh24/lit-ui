@@ -9,15 +9,23 @@
   <title>LIT UI</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
   <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./components/components-style.css">
 </head>
 
 <body>
+  <script>
+    function darkMode(){
+      document.body.classList.toggle('dark-mode');
+      } 
+    window.onpaint = darkMode();
+  </script>
   <div class="body">
     <header class="header">
       <div class="title">
         <h2><a class="header-title" href="index.html">LIT UI</a></h2>
       </div>
       <div class="nav">
+        <i id="dark-mode-toggle" class="fa fa-moon-o fa-2x dark-mode-toggle" aria-hidden="true"></i>
         <a href="https://github.com/haarsh24/lit-ui">
           <span class="header-title">GitHub</span> <i class="header-title fa fa-github fa-2x"></i>
         </a>
@@ -58,5 +66,5 @@
     </footer>
   </div>
 </body>
-
+<script src="./js/dark-mode.js"></script>
 </html>

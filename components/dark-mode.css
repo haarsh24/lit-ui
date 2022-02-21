@@ -1,0 +1,11 @@
+.dark-mode-toggle{
+    cursor:pointer;
+}
+.dark-mode-toggle:hover{
+    color:var(--font-color);
+}
+
+.dark-mode {
+  background-color: var(--secondary-color);
+  color: var(--font-color); 
+}
