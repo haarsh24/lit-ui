@@ -12,6 +12,7 @@
 @import url("./snackbar.css");
 @import url("./grid.css");
 @import url("./dark-mode.css");
+@import url("./navigation.css");
 
 * {
   font-family: "Readex Pro", sans-serif;
@@ -72,6 +73,7 @@
 }
 
 .lists {
+  overflow-y:auto;
   position: sticky;
   top: 0;
   right: 0;
@@ -83,6 +85,8 @@
   align-items: flex-start;
   width: 15rem;
   padding: 2rem;
+  /* gap: 1.5rem; */
+ 
 }
 
 .list-item {
@@ -91,16 +95,16 @@
   flex-direction: row;
   margin: 0.5rem;
   align-items: center;
-  /* gap: 1rem; */
+ 
   height: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   /* scroll-behavior: auto; */
   color: var(--font-color);
 }
 .item-text:hover {
   font-size: 1.5rem;
   background-color: var(--primary-color);
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 1rem;
   color: var(--secondary-color);
 }

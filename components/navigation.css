@@ -1,0 +1,10 @@
+.nav-component {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+    position: sticky;
+    border-radius: 1rem;
+    margin:2rem;
+  }
