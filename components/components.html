@@ -12,11 +12,11 @@
 
 <body>
   <script>
-      function darkMode(){
+    function darkMode() {
       document.body.classList.toggle('dark-mode');
-      } 
+    }
     window.onpaint = darkMode();
-    </script>
+  </script>
   <div class="body">
     <header class="header">
       <div class="title">
@@ -60,6 +60,9 @@
             <label><a href="#inputs" class="item-text"> Inputs</a></label>
           </div>
           <div class="list-item">
+            <label><a href="#navigation" class="item-text"> Navigation</a></label>
+          </div>
+          <div class="list-item">
             <label><a href="#text-util" class="item-text"> Textography</a></label>
           </div>
           <div class="list-item">
@@ -100,7 +103,7 @@
             </div>
           </div>
           <div class="alert-code code">
-            <iframe class="code" 
+            <iframe class="code"
               src="https://carbon.now.sh/embed?bg=rgba%28134%2C42%2C220%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520secondary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520success%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520danger%2520alert%25E2%2580%2594check%2520%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%2520role%253D%2522alert%2522%253E%250A%2520%2520This%2520is%2520a%2520warning%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%2520%253Cdiv%2520class%253D%2522alert-dismiss%2522%253EX%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
               style="width: 538px; height: 541px; border:0; transform: scale(1); overflow:hidden;"
               sandbox="allow-scripts allow-same-origin">
@@ -566,7 +569,28 @@
           </div>
 
         </div>
+        <div class="navigation" id="navigation">
+          <div class="heading navigation-heading">Navigation (Simple)</div>
+          <div class="summary navigation-summary">
+            Navigation are used to navigate through the entire web page. It is generally on the top of web page.
+          </div>
+          <div class="nav-component flex ">
+            <h1 class="h1 p2">Header</h1>
 
+            <div class="nav-icon">
+              <i class="fa fa-bookmark fa-2x " aria-hidden="true"></i>
+              <i class="fa fa-user fa-2x p2" aria-hidden="true"></i>
+              <i class="fa fa-cogs fa-2x " aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="flex-column-center">
+          <iframe class="code "
+            src="https://carbon.now.sh/embed?bg=rgba%28134%2C42%2C220%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=100px&dsblur=100px&wc=true&wa=true&pv=45px&ph=44px&ln=false&fl=1&fm=Hack&fs=13px&lh=153%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522nav-component%2520flex%2520%2522%253E%250A%2520%2520%253Ch1%2520class%253D%2522h1%2520p2%2522%253EHeader%253C%252Fh1%253E%250A%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522nav-icon%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bookmark%2520fa-2x%2520%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-user%2520fa-2x%2520p2%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-cogs%2520fa-2x%2520%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 579px; height: 326px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        </div>
         <div class="text-util" id="text-util">
           <div class="heading text-util-heading">Textography</div>
           <div class="summary text-utli-summary">
