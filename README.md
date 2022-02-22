@@ -119,6 +119,7 @@ Open project
  
 - [Sliders](https://litui.netlify.app/components/components.html#sliders)
 
+- [Navigation](https://litui.netlify.app/components/components.html#navigation)
 
 ## Color Reference
 
