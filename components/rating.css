@@ -1,0 +1,28 @@
+.rating {
+    cursor: pointer;
+    color: var(--primary-color);
+  }
+  .no-rating {
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+  .star-rating {
+    direction: rtl;
+    display: inline-block;
+    cursor: default;
+  }
+  .star-rating .star-input[type="radio"] {
+    display: none;
+  }
+  .star-rating .star-label {
+    color: #bbb;
+    font-size: 18px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .star-rating .star-label:hover,
+  .star-rating .star-label:hover ~ .star-label,
+  .star-rating input[type="radio"]:checked ~ .star-label {
+    color: var(--primary-color);
+  }
