@@ -7,7 +7,8 @@
   <title>LIT UI | Components</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
   <link rel="stylesheet" href="./components-style.css" />
-
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
 </head>
 
 <body>
@@ -68,14 +69,18 @@
           <div class="list-item">
             <label><a href="#lists" class="item-text"> Lists</a></label>
           </div>
-          <div></div>
           <div class="list-item">
             <label><a href="#snackbars" class="item-text"> Snackbars</a></label>
           </div>
           <div class="list-item">
             <label><a href="#sliders" class="item-text"> Sliders</a></label>
           </div>
-
+          <div class="list-item">
+            <label><a href="#modal" class="item-text"> Modal</a></label>
+          </div>
+          <div class="list-item">
+            <label><a href="#rating" class="item-text"> Rating</a></label>
+          </div>
         </div>
       </aside>
       <div class="components-items">
@@ -750,6 +755,67 @@
             </iframe>
           </div>
         </div>
+        <div id="modal" class="modal p2">
+          <div class="heading modal-heading">Modal</div>
+          <div class="summary modal-summary"> Modal is used to display certain message to user
+          </div> 
+          <button id="modal-btn" class="btn m1 ">Show Modal</button>
+          <div id="modal-card" class="card dismiss modal-card">
+          <div class="card-items-text">
+            <h2>Do you really want to Logout ?</h2>
+            <p class="text-only-font">You will lose all your Data</p>
+          </div>
+          <div class="dismiss-btn">
+            <button id="modal-close-btn" class="card-btn blue">Cancel</button>
+            <button id="modal-close-btn" class="card-btn red">Logout</button>
+          </div>
+        </div>
+        
+          <div class="modal-code code">
+            <iframe class=""
+                src="https://carbon.now.sh/embed?bg=rgba%28137%2C82%2C220%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522modal-card%2522%2520class%253D%2522card%2520dismiss%2520modal-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-items-text%2522%253E%250A%2520%2520%2520%2520%253Ch2%253EDo%2520you%2520really%2520want%2520to%2520Logout%2520%253F%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-only-font%2522%253EYou%2520will%2520lose%2520all%2520your%2520Data%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522dismiss-btn%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520id%253D%2522modal-close-btn%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-btn%2520blue%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520id%253D%2522modal-close-btn%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-btn%2520red%2522%253ELogout%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cscript%253E%250Aconst%2520modalBtn%2520%253D%2520document.querySelector%28%27%2523modal-btn%27%29%253B%250Aconst%2520modalCard%2520%253D%2520document.querySelector%28%27%2523modal-card%27%29%253B%250Aconst%2520modalCloseBtn%2520%253D%2520document.querySelector%28%27%2523modal-close-btn%27%29%253B%250A%250AmodalBtn.addEventListener%28%27click%27%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520modalCard.style.display%2520%253D%2520%27block%27%253B%250A%257D%29%253B%250A%250AmodalCloseBtn.addEventListener%28%27click%27%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520modalCard.style.display%2520%253D%2520%27none%27%253B%250A%257D%29%253B%250A%253C%252Fscript%253E"
+                style="width: 683px; height: 636px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
+        <div id="rating" class="rating-div p2">
+          <div class="heading rating-heading">Rating</div>
+          <div class="summary rating-summary"> Rating is used to rate products 
+          </div> 
+          
+          
+        <div class="star-rating">
+          <input id="star-5" type="radio" name="rating" class="star-input" />
+          <label for="star-5" class="star-label">
+            <i class="fa fa-star fa-2x p1" aria-hidden="true"></i>
+          </label>
+          <input id="star-4" type="radio" name="rating" class="star-input" />
+          <label for="star-4" class="star-label">
+            <i class="fa fa-star fa-2x p1" aria-hidden="true"></i>
+          </label>
+          <input id="star-3" type="radio" name="rating" class="star-input" />
+          <label for="star-3" class="star-label">
+            <i class="fa fa-star fa-2x p1" aria-hidden="true"></i>
+          </label>
+          <input id="star-2" type="radio" name="rating" class="star-input" />
+          <label for="star-2" class="star-label">
+            <i class="fa fa-star fa-2x p1" aria-hidden="true"></i>
+          </label>
+          <input id="star-1" type="radio" name="rating" class="star-input" />
+          <label for="star-1" class="star-label">
+            <i class="fa fa-star fa-2x p1" aria-hidden="true"></i>
+          </label>
+        </div>
+          <div class="modal-code code">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28137%2C82%2C220%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522star-rating%2522%253E%250A%2520%2520%253Cinput%2520id%253D%2522star-5%2522%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520class%253D%2522star-input%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522star-5%2522%2520class%253D%2522star-label%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520fa-2x%2520p1%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520id%253D%2522star-4%2522%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520class%253D%2522star-input%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522star-4%2522%2520class%253D%2522star-label%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520fa-2x%2520p1%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520id%253D%2522star-3%2522%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520class%253D%2522star-input%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522star-3%2522%2520class%253D%2522star-label%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520fa-2x%2520p1%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520id%253D%2522star-2%2522%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520class%253D%2522star-input%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522star-2%2522%2520class%253D%2522star-label%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520fa-2x%2520p1%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520id%253D%2522star-1%2522%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520class%253D%2522star-input%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522star-1%2522%2520class%253D%2522star-label%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520fa-2x%2520p1%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+            style="width: 717px; height: 580px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+        </div>
+        </div>
       </div>
 
     </div>
@@ -767,5 +833,7 @@
 <script src="../js/snackbar.js"></script>
 <script src="../js/slider.js"></script>
 <script src="../js/dark-mode.js"></script>
+<script src="../js/modal.js"></script>
 
 </html>
+
