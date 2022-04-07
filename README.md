@@ -121,6 +121,10 @@ Open project
 
 - [Navigation](https://litui.netlify.app/components/components.html#navigation)
 
+- [Modal](https://litui.netlify.app/components/components.html#modal)
+
+- [Rating](https://litui.netlify.app/components/components.html#rating)
+
 ## Color Reference
 
 | Color             | Hex                                                                |
